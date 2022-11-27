@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: purple;
+    padding: 25px 4rem;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    transition: .6s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.right a{
+    font-weight: bold;
+    margin-left: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.logo a{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.active{
+    padding: 18px 4rem;
+    background-color: rebeccapurple;
+}
+
+
+#arrow{
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 100%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    opacity: 0;
+    transition: .5s;
+    visibility: hidden;
+}
+
+#form{
+    text-align: center;
+    width: 40%;
+    margin: 3rem auto;
+    border: 3px double rebeccapurple;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+#start{
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: bold;
+}
